@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    padding: 0 20px;
+}
+
+header nav {
+    align-content: center;
+}
+
+header nav ul {
+    display: flex;
+
+    gap: 20px;
+
+}
