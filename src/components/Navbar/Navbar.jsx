@@ -3,32 +3,32 @@ import "./Navbar.css"
 export default function Navbar() {
     return (
         <header>
-            <h1>Imagem</h1>
+            <div>
+                <h1>Horizont</h1>
+            </div>
             <nav>
                 <ul>
                     <li>
                         <a href="">
                             <i></i>
-                            <label htmlFor="">Projetos</label>
+                            <label htmlFor="">Home</label>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <i></i>
-                            <label htmlFor="">Parcerias</label>
+                            <label htmlFor="">Services</label>
                         </a>
                     </li>
                     <li>
                         <a href="">
                             <i></i>
-                            <label htmlFor="">Sobre</label>
+                            <label htmlFor="">About Us</label>
                         </a>
                     </li>
                     <li>
-                        <a href="">
-                            <i></i>
-                            <input type="search" name="" id="" />
-                        </a>
+                        <i></i>
+                        <input type="search" name="" id="" />
                     </li>
                 </ul>
             </nav>

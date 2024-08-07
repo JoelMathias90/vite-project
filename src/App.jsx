@@ -1,9 +1,7 @@
 import Navbar from "./components/Navbar/Navbar.jsx"
 
-function App() {
+export default function App() {
   return (
     <Navbar/>
   )
 }
-
-export default App
